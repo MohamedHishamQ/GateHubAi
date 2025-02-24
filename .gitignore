@@ -14,7 +14,7 @@ venv/
 env/
 
 #larg file
-*.pt
+
 
 #cfg
 *.cfg

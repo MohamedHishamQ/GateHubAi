@@ -1,0 +1,27 @@
+# PyCharm
+.idea/
+Lib/
+Scripts/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual Environment
+venv/
+env/
+
+#larg file
+*.pt
+
+#cfg
+*.cfg
+
+# Data files
+*.csv
+*.json
+
+# Environment variables
+.env

@@ -71,4 +71,4 @@ def process_image(image_path):
 
 
 if __name__ == "__main__":
-    process_image(BASE_DIR /"data\image4.png")
+    process_image(BASE_DIR /"data\image.png")

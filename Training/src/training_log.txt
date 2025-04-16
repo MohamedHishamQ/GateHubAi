@@ -1,0 +1,505 @@
+2025-03-10 14:40:46,914 - INFO: System Information:
+2025-03-10 14:40:46,915 - INFO: Python Version: 3.11.4
+2025-03-10 14:40:46,926 - INFO: OS: Windows-10-10.0.19045-SP0
+2025-03-10 14:40:46,926 - INFO: Total CPU Cores: 8
+2025-03-10 14:40:46,929 - INFO: Total Memory: 3.80 GB
+2025-03-10 14:40:46,932 - INFO: Available Memory: 0.39 GB
+2025-03-10 14:40:46,932 - INFO: Starting dataset loading...
+2025-03-10 14:40:46,932 - INFO: Starting dataset loading from: D:\pythonProject\Automatic-number-plate-recognition-in-real-time--main\GateHub\Training\data\Data Set
+2025-03-10 14:41:28,040 - INFO: Loaded 4962 images for class 0
+2025-03-10 14:42:06,841 - INFO: Loaded 5072 images for class 1
+2025-03-10 14:42:42,284 - INFO: Loaded 5020 images for class 2
+2025-03-10 14:43:18,051 - INFO: Loaded 5014 images for class 3
+2025-03-10 14:43:24,327 - INFO: Loaded 795 images for class 3en
+2025-03-10 14:43:57,892 - INFO: Loaded 5020 images for class 4
+2025-03-10 14:44:32,103 - INFO: Loaded 5026 images for class 5
+2025-03-10 14:45:02,833 - INFO: Loaded 5020 images for class 6
+2025-03-10 14:45:44,692 - INFO: Loaded 6974 images for class 7
+2025-03-10 14:46:28,533 - INFO: Loaded 6989 images for class 8
+2025-03-10 14:46:59,890 - INFO: Loaded 5038 images for class 9
+2025-03-10 14:47:08,485 - INFO: Loaded 1106 images for class alf
+2025-03-10 14:47:18,546 - INFO: Loaded 1261 images for class beh
+2025-03-10 14:47:26,714 - INFO: Loaded 1127 images for class dal
+2025-03-10 14:47:35,109 - INFO: Loaded 1108 images for class fa2
+2025-03-10 14:47:41,977 - INFO: Loaded 882 images for class gem
+2025-03-10 14:47:48,439 - INFO: Loaded 933 images for class heh
+2025-03-10 14:47:57,971 - INFO: Loaded 1233 images for class kaf
+2025-03-10 14:48:05,247 - INFO: Loaded 861 images for class kha
+2025-03-10 14:48:06,505 - INFO: Loaded 826 images for class lam
+2025-03-10 14:48:07,865 - INFO: Loaded 946 images for class mem
+2025-03-10 14:48:09,019 - INFO: Loaded 1221 images for class non
+2025-03-10 14:48:09,956 - INFO: Loaded 826 images for class ra2
+2025-03-10 14:48:11,002 - INFO: Loaded 902 images for class sad
+2025-03-10 14:48:11,999 - INFO: Loaded 840 images for class sen
+2025-03-10 14:48:12,937 - INFO: Loaded 866 images for class ta2
+2025-03-10 14:48:14,023 - INFO: Loaded 1173 images for class wow
+2025-03-10 14:48:15,802 - INFO: Loaded 841 images for class ya2
+2025-03-10 14:48:15,805 - INFO: Dataset loading completed in 448.87 seconds
+2025-03-10 14:48:15,805 - INFO: Class Distribution:
+2025-03-10 14:48:15,806 - INFO: 0: 4962 images
+2025-03-10 14:48:15,807 - INFO: 1: 5072 images
+2025-03-10 14:48:15,807 - INFO: 2: 5020 images
+2025-03-10 14:48:15,807 - INFO: 3: 5014 images
+2025-03-10 14:48:15,807 - INFO: 3en: 795 images
+2025-03-10 14:48:15,807 - INFO: 4: 5020 images
+2025-03-10 14:48:15,807 - INFO: 5: 5026 images
+2025-03-10 14:48:15,807 - INFO: 6: 5020 images
+2025-03-10 14:48:15,808 - INFO: 7: 6974 images
+2025-03-10 14:48:15,808 - INFO: 8: 6989 images
+2025-03-10 14:48:15,808 - INFO: 9: 5038 images
+2025-03-10 14:48:15,808 - INFO: alf: 1106 images
+2025-03-10 14:48:15,808 - INFO: beh: 1261 images
+2025-03-10 14:48:15,808 - INFO: dal: 1127 images
+2025-03-10 14:48:15,808 - INFO: fa2: 1108 images
+2025-03-10 14:48:15,808 - INFO: gem: 882 images
+2025-03-10 14:48:15,808 - INFO: heh: 933 images
+2025-03-10 14:48:15,808 - INFO: kaf: 1233 images
+2025-03-10 14:48:15,808 - INFO: kha: 861 images
+2025-03-10 14:48:15,809 - INFO: lam: 826 images
+2025-03-10 14:48:15,809 - INFO: mem: 946 images
+2025-03-10 14:48:15,809 - INFO: non: 1221 images
+2025-03-10 14:48:15,809 - INFO: ra2: 826 images
+2025-03-10 14:48:15,809 - INFO: sad: 902 images
+2025-03-10 14:48:15,809 - INFO: sen: 840 images
+2025-03-10 14:48:15,809 - INFO: ta2: 866 images
+2025-03-10 14:48:15,809 - INFO: wow: 1173 images
+2025-03-10 14:48:15,809 - INFO: ya2: 841 images
+2025-03-10 14:48:16,795 - INFO: Splitting dataset...
+2025-03-10 14:48:18,329 - INFO: Training data shape: (57505, 32, 32, 1)
+2025-03-10 14:48:18,330 - INFO: Testing data shape: (14377, 32, 32, 1)
+2025-03-10 14:48:18,358 - INFO: Class Weights:
+2025-03-10 14:48:18,359 - INFO: Class 0: 0.5174
+2025-03-10 14:48:18,359 - INFO: Class 1: 0.5062
+2025-03-10 14:48:18,359 - INFO: Class 2: 0.5114
+2025-03-10 14:48:18,359 - INFO: Class 3: 0.5120
+2025-03-10 14:48:18,359 - INFO: Class 4: 3.2292
+2025-03-10 14:48:18,359 - INFO: Class 5: 0.5114
+2025-03-10 14:48:18,359 - INFO: Class 6: 0.5108
+2025-03-10 14:48:18,359 - INFO: Class 7: 0.5114
+2025-03-10 14:48:18,359 - INFO: Class 8: 0.3681
+2025-03-10 14:48:18,359 - INFO: Class 9: 0.3673
+2025-03-10 14:48:18,359 - INFO: Class 10: 0.5096
+2025-03-10 14:48:18,359 - INFO: Class 11: 2.3212
+2025-03-10 14:48:18,359 - INFO: Class 12: 2.0359
+2025-03-10 14:48:18,359 - INFO: Class 13: 2.2779
+2025-03-10 14:48:18,359 - INFO: Class 14: 2.3170
+2025-03-10 14:48:18,359 - INFO: Class 15: 2.9107
+2025-03-10 14:48:18,359 - INFO: Class 16: 2.7516
+2025-03-10 14:48:18,360 - INFO: Class 17: 2.0821
+2025-03-10 14:48:18,360 - INFO: Class 18: 2.9817
+2025-03-10 14:48:18,360 - INFO: Class 19: 3.1080
+2025-03-10 14:48:18,360 - INFO: Class 20: 2.7138
+2025-03-10 14:48:18,360 - INFO: Class 21: 2.1026
+2025-03-10 14:48:18,360 - INFO: Class 22: 3.1080
+2025-03-10 14:48:18,360 - INFO: Class 23: 2.8461
+2025-03-10 14:48:18,360 - INFO: Class 24: 3.0562
+2025-03-10 14:48:18,360 - INFO: Class 25: 2.9645
+2025-03-10 14:48:18,360 - INFO: Class 26: 2.1886
+2025-03-10 14:48:18,360 - INFO: Class 27: 3.0526
+2025-03-10 14:48:18,360 - INFO: Creating model...
+2025-03-10 14:48:19,711 - INFO: Model: "model"
+2025-03-10 14:48:19,711 - INFO: _________________________________________________________________
+2025-03-10 14:48:19,711 - INFO:  Layer (type)                Output Shape              Param #   
+2025-03-10 14:48:19,711 - INFO: =================================================================
+2025-03-10 14:48:19,713 - INFO:  input_1 (InputLayer)        [(None, 32, 32, 1)]       0         
+2025-03-10 14:48:19,713 - INFO:                                                                  
+2025-03-10 14:48:19,713 - INFO:  conv2d (Conv2D)             (None, 32, 32, 32)        320       
+2025-03-10 14:48:19,713 - INFO:                                                                  
+2025-03-10 14:48:19,713 - INFO:  batch_normalization (Batch  (None, 32, 32, 32)        128       
+2025-03-10 14:48:19,713 - INFO:  Normalization)                                                  
+2025-03-10 14:48:19,713 - INFO:                                                                  
+2025-03-10 14:48:19,714 - INFO:  max_pooling2d (MaxPooling2  (None, 16, 16, 32)        0         
+2025-03-10 14:48:19,714 - INFO:  D)                                                              
+2025-03-10 14:48:19,714 - INFO:                                                                  
+2025-03-10 14:48:19,714 - INFO:  dropout (Dropout)           (None, 16, 16, 32)        0         
+2025-03-10 14:48:19,714 - INFO:                                                                  
+2025-03-10 14:48:19,714 - INFO:  conv2d_1 (Conv2D)           (None, 16, 16, 64)        18496     
+2025-03-10 14:48:19,714 - INFO:                                                                  
+2025-03-10 14:48:19,714 - INFO:  batch_normalization_1 (Bat  (None, 16, 16, 64)        256       
+2025-03-10 14:48:19,714 - INFO:  chNormalization)                                                
+2025-03-10 14:48:19,714 - INFO:                                                                  
+2025-03-10 14:48:19,715 - INFO:  max_pooling2d_1 (MaxPoolin  (None, 8, 8, 64)          0         
+2025-03-10 14:48:19,715 - INFO:  g2D)                                                            
+2025-03-10 14:48:19,715 - INFO:                                                                  
+2025-03-10 14:48:19,715 - INFO:  dropout_1 (Dropout)         (None, 8, 8, 64)          0         
+2025-03-10 14:48:19,715 - INFO:                                                                  
+2025-03-10 14:48:19,715 - INFO:  conv2d_2 (Conv2D)           (None, 8, 8, 128)         73856     
+2025-03-10 14:48:19,715 - INFO:                                                                  
+2025-03-10 14:48:19,715 - INFO:  batch_normalization_2 (Bat  (None, 8, 8, 128)         512       
+2025-03-10 14:48:19,715 - INFO:  chNormalization)                                                
+2025-03-10 14:48:19,716 - INFO:                                                                  
+2025-03-10 14:48:19,716 - INFO:  max_pooling2d_2 (MaxPoolin  (None, 4, 4, 128)         0         
+2025-03-10 14:48:19,716 - INFO:  g2D)                                                            
+2025-03-10 14:48:19,716 - INFO:                                                                  
+2025-03-10 14:48:19,716 - INFO:  dropout_2 (Dropout)         (None, 4, 4, 128)         0         
+2025-03-10 14:48:19,716 - INFO:                                                                  
+2025-03-10 14:48:19,716 - INFO:  flatten (Flatten)           (None, 2048)              0         
+2025-03-10 14:48:19,716 - INFO:                                                                  
+2025-03-10 14:48:19,716 - INFO:  dense (Dense)               (None, 256)               524544    
+2025-03-10 14:48:19,716 - INFO:                                                                  
+2025-03-10 14:48:19,717 - INFO:  batch_normalization_3 (Bat  (None, 256)               1024      
+2025-03-10 14:48:19,717 - INFO:  chNormalization)                                                
+2025-03-10 14:48:19,717 - INFO:                                                                  
+2025-03-10 14:48:19,717 - INFO:  dropout_3 (Dropout)         (None, 256)               0         
+2025-03-10 14:48:19,717 - INFO:                                                                  
+2025-03-10 14:48:19,717 - INFO:  dense_1 (Dense)             (None, 28)                7196      
+2025-03-10 14:48:19,717 - INFO:                                                                  
+2025-03-10 14:48:19,717 - INFO: =================================================================
+2025-03-10 14:48:19,718 - INFO: Total params: 626332 (2.39 MB)
+2025-03-10 14:48:19,718 - INFO: Trainable params: 625372 (2.39 MB)
+2025-03-10 14:48:19,719 - INFO: Non-trainable params: 960 (3.75 KB)
+2025-03-10 14:48:19,719 - INFO: _________________________________________________________________
+2025-03-10 14:48:19,724 - INFO: Starting model training...
+2025-03-10 14:48:20,347 - INFO: 
+Starting Epoch 1/200
+2025-03-10 14:52:09,899 - INFO: Epoch 1 completed in 229.55 seconds
+2025-03-10 14:52:09,902 - INFO: Epoch Metrics: loss: 1.3064 - accuracy: 0.7933 - val_loss: 0.2299 - val_accuracy: 0.9310
+2025-03-10 14:52:10,163 - INFO: 
+Starting Epoch 2/200
+2025-03-10 14:55:55,212 - INFO: Epoch 2 completed in 225.04 seconds
+2025-03-10 14:55:55,219 - INFO: Epoch Metrics: loss: 0.6474 - accuracy: 0.9090 - val_loss: 0.1563 - val_accuracy: 0.9460
+2025-03-10 14:55:55,445 - INFO: 
+Starting Epoch 3/200
+2025-03-10 14:59:35,662 - INFO: Epoch 3 completed in 220.21 seconds
+2025-03-10 14:59:35,667 - INFO: Epoch Metrics: loss: 0.4922 - accuracy: 0.9312 - val_loss: 0.1228 - val_accuracy: 0.9589
+2025-03-10 14:59:35,852 - INFO: 
+Starting Epoch 4/200
+2025-03-10 15:03:09,188 - INFO: Epoch 4 completed in 213.33 seconds
+2025-03-10 15:03:09,191 - INFO: Epoch Metrics: loss: 0.4431 - accuracy: 0.9379 - val_loss: 0.0932 - val_accuracy: 0.9707
+2025-03-10 15:03:09,363 - INFO: 
+Starting Epoch 5/200
+2025-03-10 15:06:35,526 - INFO: Epoch 5 completed in 206.16 seconds
+2025-03-10 15:06:35,526 - INFO: Epoch Metrics: loss: 0.3634 - accuracy: 0.9501 - val_loss: 0.0837 - val_accuracy: 0.9743
+2025-03-10 15:06:35,596 - INFO: 
+Starting Epoch 6/200
+2025-03-10 15:10:07,325 - INFO: Epoch 6 completed in 211.73 seconds
+2025-03-10 15:10:07,327 - INFO: Epoch Metrics: loss: 0.3389 - accuracy: 0.9539 - val_loss: 0.0730 - val_accuracy: 0.9757
+2025-03-10 15:10:07,495 - INFO: 
+Starting Epoch 7/200
+2025-03-10 15:13:41,020 - INFO: Epoch 7 completed in 213.53 seconds
+2025-03-10 15:13:41,021 - INFO: Epoch Metrics: loss: 0.3020 - accuracy: 0.9584 - val_loss: 0.0624 - val_accuracy: 0.9798
+2025-03-10 15:13:41,110 - INFO: 
+Starting Epoch 8/200
+2025-03-10 15:17:06,701 - INFO: Epoch 8 completed in 205.59 seconds
+2025-03-10 15:17:06,701 - INFO: Epoch Metrics: loss: 0.2772 - accuracy: 0.9610 - val_loss: 0.0671 - val_accuracy: 0.9789
+2025-03-10 15:17:06,703 - INFO: 
+Starting Epoch 9/200
+2025-03-10 15:20:48,894 - INFO: Epoch 9 completed in 222.19 seconds
+2025-03-10 15:20:48,902 - INFO: Epoch Metrics: loss: 0.2592 - accuracy: 0.9641 - val_loss: 0.0666 - val_accuracy: 0.9793
+2025-03-10 15:20:48,914 - INFO: 
+Starting Epoch 10/200
+2025-03-10 15:24:47,594 - INFO: Epoch 10 completed in 238.68 seconds
+2025-03-10 15:24:47,602 - INFO: Epoch Metrics: loss: 0.2420 - accuracy: 0.9658 - val_loss: 0.0695 - val_accuracy: 0.9782
+2025-03-10 15:24:47,611 - INFO: 
+Starting Epoch 11/200
+2025-03-10 15:28:24,872 - INFO: Epoch 11 completed in 217.26 seconds
+2025-03-10 15:28:24,880 - INFO: Epoch Metrics: loss: 0.2254 - accuracy: 0.9684 - val_loss: 0.0679 - val_accuracy: 0.9795
+2025-03-10 15:28:24,889 - INFO: 
+Starting Epoch 12/200
+2025-03-10 15:32:01,834 - INFO: Epoch 12 completed in 216.94 seconds
+2025-03-10 15:32:01,836 - INFO: Epoch Metrics: loss: 0.2205 - accuracy: 0.9685 - val_loss: 0.0576 - val_accuracy: 0.9821
+2025-03-10 15:32:02,163 - INFO: 
+Starting Epoch 13/200
+2025-03-10 15:36:03,325 - INFO: Epoch 13 completed in 241.16 seconds
+2025-03-10 15:36:03,335 - INFO: Epoch Metrics: loss: 0.2113 - accuracy: 0.9703 - val_loss: 0.0671 - val_accuracy: 0.9787
+2025-03-10 15:36:03,351 - INFO: 
+Starting Epoch 14/200
+2025-03-10 15:40:56,629 - INFO: Epoch 14 completed in 293.28 seconds
+2025-03-10 15:40:56,629 - INFO: Epoch Metrics: loss: 0.1969 - accuracy: 0.9720 - val_loss: 0.0540 - val_accuracy: 0.9838
+2025-03-10 15:40:56,923 - INFO: 
+Starting Epoch 15/200
+2025-03-10 15:45:48,497 - INFO: Epoch 15 completed in 291.57 seconds
+2025-03-10 15:45:48,497 - INFO: Epoch Metrics: loss: 0.1873 - accuracy: 0.9738 - val_loss: 0.0588 - val_accuracy: 0.9821
+2025-03-10 15:45:48,501 - INFO: 
+Starting Epoch 16/200
+2025-03-10 15:50:21,647 - INFO: Epoch 16 completed in 273.14 seconds
+2025-03-10 15:50:21,656 - INFO: Epoch Metrics: loss: 0.1807 - accuracy: 0.9741 - val_loss: 0.0531 - val_accuracy: 0.9838
+2025-03-10 15:50:21,666 - INFO: 
+Starting Epoch 17/200
+2025-03-10 15:53:57,922 - INFO: Epoch 17 completed in 216.25 seconds
+2025-03-10 15:53:57,932 - INFO: Epoch Metrics: loss: 0.1761 - accuracy: 0.9758 - val_loss: 0.0524 - val_accuracy: 0.9829
+2025-03-10 15:53:57,941 - INFO: 
+Starting Epoch 18/200
+2025-03-10 15:57:41,189 - INFO: Epoch 18 completed in 223.24 seconds
+2025-03-10 15:57:41,197 - INFO: Epoch Metrics: loss: 0.1672 - accuracy: 0.9760 - val_loss: 0.0502 - val_accuracy: 0.9841
+2025-03-10 15:57:41,457 - INFO: 
+Starting Epoch 19/200
+2025-03-10 16:01:08,117 - INFO: Epoch 19 completed in 206.66 seconds
+2025-03-10 16:01:08,118 - INFO: Epoch Metrics: loss: 0.1663 - accuracy: 0.9763 - val_loss: 0.0469 - val_accuracy: 0.9856
+2025-03-10 16:01:08,198 - INFO: 
+Starting Epoch 20/200
+2025-03-10 16:04:39,773 - INFO: Epoch 20 completed in 211.57 seconds
+2025-03-10 16:04:39,775 - INFO: Epoch Metrics: loss: 0.1548 - accuracy: 0.9777 - val_loss: 0.0607 - val_accuracy: 0.9826
+2025-03-10 16:04:39,777 - INFO: 
+Starting Epoch 21/200
+2025-03-10 16:08:15,783 - INFO: Epoch 21 completed in 216.01 seconds
+2025-03-10 16:08:15,784 - INFO: Epoch Metrics: loss: 0.1485 - accuracy: 0.9789 - val_loss: 0.0498 - val_accuracy: 0.9855
+2025-03-10 16:08:15,788 - INFO: 
+Starting Epoch 22/200
+2025-03-10 16:12:11,501 - INFO: Epoch 22 completed in 235.71 seconds
+2025-03-10 16:12:11,511 - INFO: Epoch Metrics: loss: 0.1467 - accuracy: 0.9790 - val_loss: 0.0500 - val_accuracy: 0.9849
+2025-03-10 16:12:11,525 - INFO: 
+Starting Epoch 23/200
+2025-03-10 16:17:09,384 - INFO: Epoch 23 completed in 297.86 seconds
+2025-03-10 16:17:09,384 - INFO: Epoch Metrics: loss: 0.1418 - accuracy: 0.9798 - val_loss: 0.0534 - val_accuracy: 0.9847
+2025-03-10 16:17:09,385 - INFO: 
+Starting Epoch 24/200
+2025-03-10 16:22:03,889 - INFO: Epoch 24 completed in 294.50 seconds
+2025-03-10 16:22:03,897 - INFO: Epoch Metrics: loss: 0.1388 - accuracy: 0.9808 - val_loss: 0.0515 - val_accuracy: 0.9844
+2025-03-10 16:22:03,908 - INFO: 
+Starting Epoch 25/200
+2025-03-10 16:26:55,016 - INFO: Epoch 25 completed in 291.11 seconds
+2025-03-10 16:26:55,016 - INFO: Epoch Metrics: loss: 0.1346 - accuracy: 0.9805 - val_loss: 0.0598 - val_accuracy: 0.9835
+2025-03-10 16:26:55,018 - INFO: 
+Starting Epoch 26/200
+2025-03-10 16:31:53,463 - INFO: Epoch 26 completed in 298.44 seconds
+2025-03-10 16:31:53,464 - INFO: Epoch Metrics: loss: 0.1275 - accuracy: 0.9814 - val_loss: 0.0585 - val_accuracy: 0.9846
+2025-03-10 16:31:53,467 - INFO: 
+Starting Epoch 27/200
+2025-03-10 16:36:39,717 - INFO: Epoch 27 completed in 286.25 seconds
+2025-03-10 16:36:39,718 - INFO: Epoch Metrics: loss: 0.1299 - accuracy: 0.9810 - val_loss: 0.0565 - val_accuracy: 0.9844
+2025-03-10 16:36:39,720 - INFO: 
+Starting Epoch 28/200
+2025-03-10 16:41:39,459 - INFO: Epoch 28 completed in 299.74 seconds
+2025-03-10 16:41:39,459 - INFO: Epoch Metrics: loss: 0.1272 - accuracy: 0.9825 - val_loss: 0.0533 - val_accuracy: 0.9844
+2025-03-10 16:41:39,461 - INFO: 
+Starting Epoch 29/200
+2025-03-10 16:46:42,801 - INFO: Epoch 29 completed in 303.34 seconds
+2025-03-10 16:46:42,810 - INFO: Epoch Metrics: loss: 0.1212 - accuracy: 0.9825 - val_loss: 0.0545 - val_accuracy: 0.9852
+2025-03-10 16:46:42,836 - INFO: 
+Starting Epoch 30/200
+2025-03-10 16:51:36,256 - INFO: Epoch 30 completed in 293.42 seconds
+2025-03-10 16:51:36,256 - INFO: Epoch Metrics: loss: 0.0964 - accuracy: 0.9861 - val_loss: 0.0518 - val_accuracy: 0.9857
+2025-03-10 16:51:36,587 - INFO: 
+Starting Epoch 31/200
+2025-03-10 16:56:31,628 - INFO: Epoch 31 completed in 295.04 seconds
+2025-03-10 16:56:31,628 - INFO: Epoch Metrics: loss: 0.0909 - accuracy: 0.9873 - val_loss: 0.0485 - val_accuracy: 0.9863
+2025-03-10 16:56:31,727 - INFO: 
+Starting Epoch 32/200
+2025-03-10 17:01:28,163 - INFO: Epoch 32 completed in 296.44 seconds
+2025-03-10 17:01:28,163 - INFO: Epoch Metrics: loss: 0.0880 - accuracy: 0.9870 - val_loss: 0.0521 - val_accuracy: 0.9857
+2025-03-10 17:01:28,165 - INFO: 
+Starting Epoch 33/200
+2025-03-10 17:06:16,726 - INFO: Epoch 33 completed in 288.56 seconds
+2025-03-10 17:06:16,727 - INFO: Epoch Metrics: loss: 0.0868 - accuracy: 0.9876 - val_loss: 0.0498 - val_accuracy: 0.9853
+2025-03-10 17:06:16,729 - INFO: 
+Starting Epoch 34/200
+2025-03-10 17:11:28,284 - INFO: Epoch 34 completed in 311.55 seconds
+2025-03-10 17:11:28,300 - INFO: Epoch Metrics: loss: 0.0831 - accuracy: 0.9876 - val_loss: 0.0469 - val_accuracy: 0.9866
+2025-03-10 17:11:28,670 - INFO: 
+Starting Epoch 35/200
+2025-03-10 17:16:29,724 - INFO: Epoch 35 completed in 301.05 seconds
+2025-03-10 17:16:29,724 - INFO: Epoch Metrics: loss: 0.0755 - accuracy: 0.9891 - val_loss: 0.0501 - val_accuracy: 0.9864
+2025-03-10 17:16:29,726 - INFO: 
+Starting Epoch 36/200
+2025-03-10 17:21:16,016 - INFO: Epoch 36 completed in 286.29 seconds
+2025-03-10 17:21:16,016 - INFO: Epoch Metrics: loss: 0.0765 - accuracy: 0.9891 - val_loss: 0.0483 - val_accuracy: 0.9871
+2025-03-10 17:21:16,136 - INFO: 
+Starting Epoch 37/200
+2025-03-10 17:26:08,352 - INFO: Epoch 37 completed in 292.21 seconds
+2025-03-10 17:26:08,352 - INFO: Epoch Metrics: loss: 0.0735 - accuracy: 0.9890 - val_loss: 0.0462 - val_accuracy: 0.9866
+2025-03-10 17:26:08,353 - INFO: 
+Starting Epoch 38/200
+2025-03-10 17:31:00,777 - INFO: Epoch 38 completed in 292.42 seconds
+2025-03-10 17:31:00,777 - INFO: Epoch Metrics: loss: 0.0747 - accuracy: 0.9891 - val_loss: 0.0484 - val_accuracy: 0.9873
+2025-03-10 17:31:00,874 - INFO: 
+Starting Epoch 39/200
+2025-03-10 17:35:54,062 - INFO: Epoch 39 completed in 293.19 seconds
+2025-03-10 17:35:54,070 - INFO: Epoch Metrics: loss: 0.0756 - accuracy: 0.9892 - val_loss: 0.0483 - val_accuracy: 0.9882
+2025-03-10 17:35:54,300 - INFO: 
+Starting Epoch 40/200
+2025-03-10 17:40:52,736 - INFO: Epoch 40 completed in 298.43 seconds
+2025-03-10 17:40:52,736 - INFO: Epoch Metrics: loss: 0.0760 - accuracy: 0.9886 - val_loss: 0.0475 - val_accuracy: 0.9869
+2025-03-10 17:40:52,739 - INFO: 
+Starting Epoch 41/200
+2025-03-10 17:45:43,929 - INFO: Epoch 41 completed in 291.19 seconds
+2025-03-10 17:45:43,929 - INFO: Epoch Metrics: loss: 0.0707 - accuracy: 0.9897 - val_loss: 0.0506 - val_accuracy: 0.9857
+2025-03-10 17:45:43,931 - INFO: 
+Starting Epoch 42/200
+2025-03-10 17:50:37,004 - INFO: Epoch 42 completed in 293.07 seconds
+2025-03-10 17:50:37,004 - INFO: Epoch Metrics: loss: 0.0712 - accuracy: 0.9893 - val_loss: 0.0495 - val_accuracy: 0.9869
+2025-03-10 17:50:37,007 - INFO: 
+Starting Epoch 43/200
+2025-03-10 17:54:34,975 - INFO: Epoch 43 completed in 237.96 seconds
+2025-03-10 17:54:34,986 - INFO: Epoch Metrics: loss: 0.0696 - accuracy: 0.9903 - val_loss: 0.0525 - val_accuracy: 0.9861
+2025-03-10 17:54:34,997 - INFO: 
+Starting Epoch 44/200
+2025-03-10 17:58:14,780 - INFO: Epoch 44 completed in 219.78 seconds
+2025-03-10 17:58:14,790 - INFO: Epoch Metrics: loss: 0.0661 - accuracy: 0.9905 - val_loss: 0.0487 - val_accuracy: 0.9871
+2025-03-10 17:58:14,801 - INFO: 
+Starting Epoch 45/200
+2025-03-10 18:01:49,277 - INFO: Epoch 45 completed in 214.47 seconds
+2025-03-10 18:01:49,287 - INFO: Epoch Metrics: loss: 0.0731 - accuracy: 0.9891 - val_loss: 0.0557 - val_accuracy: 0.9855
+2025-03-10 18:01:49,298 - INFO: 
+Starting Epoch 46/200
+2025-03-10 18:05:22,652 - INFO: Epoch 46 completed in 213.35 seconds
+2025-03-10 18:05:22,661 - INFO: Epoch Metrics: loss: 0.0646 - accuracy: 0.9902 - val_loss: 0.0481 - val_accuracy: 0.9871
+2025-03-10 18:05:22,680 - INFO: 
+Starting Epoch 47/200
+2025-03-10 18:08:51,848 - INFO: Epoch 47 completed in 209.16 seconds
+2025-03-10 18:08:51,859 - INFO: Epoch Metrics: loss: 0.0701 - accuracy: 0.9899 - val_loss: 0.0465 - val_accuracy: 0.9868
+2025-03-10 18:08:51,878 - INFO: 
+Starting Epoch 48/200
+2025-03-10 18:12:30,125 - INFO: Epoch 48 completed in 218.24 seconds
+2025-03-10 18:12:30,133 - INFO: Epoch Metrics: loss: 0.0553 - accuracy: 0.9917 - val_loss: 0.0485 - val_accuracy: 0.9871
+2025-03-10 18:12:30,143 - INFO: 
+Starting Epoch 49/200
+2025-03-10 18:15:59,321 - INFO: Epoch 49 completed in 209.17 seconds
+2025-03-10 18:15:59,329 - INFO: Epoch Metrics: loss: 0.0530 - accuracy: 0.9921 - val_loss: 0.0484 - val_accuracy: 0.9880
+2025-03-10 18:15:59,339 - INFO: 
+Starting Epoch 50/200
+2025-03-10 18:19:32,644 - INFO: Epoch 50 completed in 213.30 seconds
+2025-03-10 18:19:32,653 - INFO: Epoch Metrics: loss: 0.0509 - accuracy: 0.9921 - val_loss: 0.0502 - val_accuracy: 0.9875
+2025-03-10 18:19:32,664 - INFO: 
+Starting Epoch 51/200
+2025-03-10 18:23:11,386 - INFO: Epoch 51 completed in 218.72 seconds
+2025-03-10 18:23:11,395 - INFO: Epoch Metrics: loss: 0.0525 - accuracy: 0.9920 - val_loss: 0.0474 - val_accuracy: 0.9881
+2025-03-10 18:23:11,407 - INFO: 
+Starting Epoch 52/200
+2025-03-10 18:26:49,218 - INFO: Epoch 52 completed in 217.81 seconds
+2025-03-10 18:26:49,227 - INFO: Epoch Metrics: loss: 0.0511 - accuracy: 0.9922 - val_loss: 0.0473 - val_accuracy: 0.9885
+2025-03-10 18:26:49,575 - INFO: 
+Starting Epoch 53/200
+2025-03-10 18:30:21,900 - INFO: Epoch 53 completed in 212.32 seconds
+2025-03-10 18:30:21,909 - INFO: Epoch Metrics: loss: 0.0546 - accuracy: 0.9921 - val_loss: 0.0469 - val_accuracy: 0.9882
+2025-03-10 18:30:21,920 - INFO: 
+Starting Epoch 54/200
+2025-03-10 18:33:53,699 - INFO: Epoch 54 completed in 211.78 seconds
+2025-03-10 18:33:53,707 - INFO: Epoch Metrics: loss: 0.0491 - accuracy: 0.9925 - val_loss: 0.0467 - val_accuracy: 0.9886
+2025-03-10 18:33:53,979 - INFO: 
+Starting Epoch 55/200
+2025-03-10 18:37:26,066 - INFO: Epoch 55 completed in 212.08 seconds
+2025-03-10 18:37:26,075 - INFO: Epoch Metrics: loss: 0.0519 - accuracy: 0.9924 - val_loss: 0.0481 - val_accuracy: 0.9882
+2025-03-10 18:37:26,085 - INFO: 
+Starting Epoch 56/200
+2025-03-10 18:40:55,516 - INFO: Epoch 56 completed in 209.43 seconds
+2025-03-10 18:40:55,525 - INFO: Epoch Metrics: loss: 0.0451 - accuracy: 0.9931 - val_loss: 0.0495 - val_accuracy: 0.9876
+2025-03-10 18:40:55,536 - INFO: 
+Starting Epoch 57/200
+2025-03-10 18:44:28,207 - INFO: Epoch 57 completed in 212.67 seconds
+2025-03-10 18:44:28,216 - INFO: Epoch Metrics: loss: 0.0489 - accuracy: 0.9926 - val_loss: 0.0479 - val_accuracy: 0.9886
+2025-03-10 18:44:28,231 - INFO: 
+Starting Epoch 58/200
+2025-03-10 18:48:01,924 - INFO: Epoch 58 completed in 213.69 seconds
+2025-03-10 18:48:01,934 - INFO: Epoch Metrics: loss: 0.0436 - accuracy: 0.9933 - val_loss: 0.0477 - val_accuracy: 0.9882
+2025-03-10 18:48:01,946 - INFO: 
+Starting Epoch 59/200
+2025-03-10 18:51:38,176 - INFO: Epoch 59 completed in 216.23 seconds
+2025-03-10 18:51:38,185 - INFO: Epoch Metrics: loss: 0.0416 - accuracy: 0.9934 - val_loss: 0.0475 - val_accuracy: 0.9882
+2025-03-10 18:51:38,194 - INFO: 
+Starting Epoch 60/200
+2025-03-10 18:55:12,107 - INFO: Epoch 60 completed in 213.91 seconds
+2025-03-10 18:55:12,117 - INFO: Epoch Metrics: loss: 0.0457 - accuracy: 0.9930 - val_loss: 0.0480 - val_accuracy: 0.9885
+2025-03-10 18:55:12,126 - INFO: 
+Starting Epoch 61/200
+2025-03-10 18:58:48,369 - INFO: Epoch 61 completed in 216.24 seconds
+2025-03-10 18:58:48,378 - INFO: Epoch Metrics: loss: 0.0405 - accuracy: 0.9938 - val_loss: 0.0481 - val_accuracy: 0.9886
+2025-03-10 18:58:48,388 - INFO: 
+Starting Epoch 62/200
+2025-03-10 19:02:23,292 - INFO: Epoch 62 completed in 214.90 seconds
+2025-03-10 19:02:23,301 - INFO: Epoch Metrics: loss: 0.0439 - accuracy: 0.9935 - val_loss: 0.0498 - val_accuracy: 0.9887
+2025-03-10 19:02:23,564 - INFO: 
+Starting Epoch 63/200
+2025-03-10 19:05:59,749 - INFO: Epoch 63 completed in 216.18 seconds
+2025-03-10 19:05:59,759 - INFO: Epoch Metrics: loss: 0.0377 - accuracy: 0.9943 - val_loss: 0.0484 - val_accuracy: 0.9886
+2025-03-10 19:05:59,770 - INFO: 
+Starting Epoch 64/200
+2025-03-10 19:09:32,022 - INFO: Epoch 64 completed in 212.25 seconds
+2025-03-10 19:09:32,030 - INFO: Epoch Metrics: loss: 0.0411 - accuracy: 0.9936 - val_loss: 0.0511 - val_accuracy: 0.9882
+2025-03-10 19:09:32,040 - INFO: 
+Starting Epoch 65/200
+2025-03-10 19:13:10,474 - INFO: Epoch 65 completed in 218.43 seconds
+2025-03-10 19:13:10,483 - INFO: Epoch Metrics: loss: 0.0422 - accuracy: 0.9937 - val_loss: 0.0498 - val_accuracy: 0.9885
+2025-03-10 19:13:10,493 - INFO: 
+Starting Epoch 66/200
+2025-03-10 19:16:40,577 - INFO: Epoch 66 completed in 210.08 seconds
+2025-03-10 19:16:40,585 - INFO: Epoch Metrics: loss: 0.0359 - accuracy: 0.9945 - val_loss: 0.0499 - val_accuracy: 0.9885
+2025-03-10 19:16:40,596 - INFO: 
+Starting Epoch 67/200
+2025-03-10 19:20:19,996 - INFO: Epoch 67 completed in 219.40 seconds
+2025-03-10 19:20:20,005 - INFO: Epoch Metrics: loss: 0.0402 - accuracy: 0.9939 - val_loss: 0.0503 - val_accuracy: 0.9890
+2025-03-10 19:20:20,261 - INFO: 
+Starting Epoch 68/200
+2025-03-10 19:23:50,298 - INFO: Epoch 68 completed in 210.03 seconds
+2025-03-10 19:23:50,306 - INFO: Epoch Metrics: loss: 0.0407 - accuracy: 0.9939 - val_loss: 0.0493 - val_accuracy: 0.9887
+2025-03-10 19:23:50,317 - INFO: 
+Starting Epoch 69/200
+2025-03-10 19:27:28,824 - INFO: Epoch 69 completed in 218.50 seconds
+2025-03-10 19:27:28,832 - INFO: Epoch Metrics: loss: 0.0378 - accuracy: 0.9943 - val_loss: 0.0502 - val_accuracy: 0.9885
+2025-03-10 19:27:28,843 - INFO: 
+Starting Epoch 70/200
+2025-03-10 19:31:05,957 - INFO: Epoch 70 completed in 217.11 seconds
+2025-03-10 19:31:05,965 - INFO: Epoch Metrics: loss: 0.0381 - accuracy: 0.9944 - val_loss: 0.0503 - val_accuracy: 0.9883
+2025-03-10 19:31:05,976 - INFO: 
+Starting Epoch 71/200
+2025-03-10 19:34:38,046 - INFO: Epoch 71 completed in 212.07 seconds
+2025-03-10 19:34:38,056 - INFO: Epoch Metrics: loss: 0.0371 - accuracy: 0.9945 - val_loss: 0.0496 - val_accuracy: 0.9882
+2025-03-10 19:34:38,064 - INFO: 
+Starting Epoch 72/200
+2025-03-10 19:38:17,708 - INFO: Epoch 72 completed in 219.64 seconds
+2025-03-10 19:38:17,717 - INFO: Epoch Metrics: loss: 0.0394 - accuracy: 0.9942 - val_loss: 0.0510 - val_accuracy: 0.9885
+2025-03-10 19:38:17,727 - INFO: 
+Starting Epoch 73/200
+2025-03-10 19:41:52,824 - INFO: Epoch 73 completed in 215.09 seconds
+2025-03-10 19:41:52,832 - INFO: Epoch Metrics: loss: 0.0374 - accuracy: 0.9943 - val_loss: 0.0506 - val_accuracy: 0.9885
+2025-03-10 19:41:52,842 - INFO: 
+Starting Epoch 74/200
+2025-03-10 19:45:25,146 - INFO: Epoch 74 completed in 212.30 seconds
+2025-03-10 19:45:25,155 - INFO: Epoch Metrics: loss: 0.0394 - accuracy: 0.9940 - val_loss: 0.0501 - val_accuracy: 0.9886
+2025-03-10 19:45:25,166 - INFO: 
+Starting Epoch 75/200
+2025-03-10 19:48:54,088 - INFO: Epoch 75 completed in 208.92 seconds
+2025-03-10 19:48:54,098 - INFO: Epoch Metrics: loss: 0.0336 - accuracy: 0.9948 - val_loss: 0.0495 - val_accuracy: 0.9890
+2025-03-10 19:48:54,108 - INFO: 
+Starting Epoch 76/200
+2025-03-10 19:56:40,122 - INFO: Epoch 76 completed in 466.01 seconds
+2025-03-10 19:56:40,133 - INFO: Epoch Metrics: loss: 0.0365 - accuracy: 0.9943 - val_loss: 0.0502 - val_accuracy: 0.9887
+2025-03-10 19:56:40,145 - INFO: 
+Starting Epoch 77/200
+2025-03-11 02:21:17,349 - INFO: Epoch 77 completed in 23077.20 seconds
+2025-03-11 02:21:17,363 - INFO: Epoch Metrics: loss: 0.0385 - accuracy: 0.9939 - val_loss: 0.0505 - val_accuracy: 0.9886
+2025-03-11 02:21:17,381 - INFO: 
+Starting Epoch 78/200
+2025-03-11 02:24:37,205 - INFO: Epoch 78 completed in 199.82 seconds
+2025-03-11 02:24:37,216 - INFO: Epoch Metrics: loss: 0.0336 - accuracy: 0.9947 - val_loss: 0.0495 - val_accuracy: 0.9887
+2025-03-11 02:24:37,225 - INFO: 
+Starting Epoch 79/200
+2025-03-11 02:27:45,109 - INFO: Epoch 79 completed in 187.88 seconds
+2025-03-11 02:27:45,109 - INFO: Epoch Metrics: loss: 0.0359 - accuracy: 0.9945 - val_loss: 0.0507 - val_accuracy: 0.9885
+2025-03-11 02:27:45,111 - INFO: 
+Starting Epoch 80/200
+2025-03-11 02:31:05,670 - INFO: Epoch 80 completed in 200.56 seconds
+2025-03-11 02:31:05,670 - INFO: Epoch Metrics: loss: 0.0345 - accuracy: 0.9948 - val_loss: 0.0492 - val_accuracy: 0.9887
+2025-03-11 02:31:05,671 - INFO: 
+Starting Epoch 81/200
+2025-03-11 02:34:30,631 - INFO: Epoch 81 completed in 204.96 seconds
+2025-03-11 02:34:30,631 - INFO: Epoch Metrics: loss: 0.0353 - accuracy: 0.9943 - val_loss: 0.0500 - val_accuracy: 0.9887
+2025-03-11 02:34:30,633 - INFO: 
+Starting Epoch 82/200
+2025-03-11 02:38:08,792 - INFO: Epoch 82 completed in 218.15 seconds
+2025-03-11 02:38:08,804 - INFO: Epoch Metrics: loss: 0.0383 - accuracy: 0.9944 - val_loss: 0.0494 - val_accuracy: 0.9887
+2025-03-11 02:38:08,817 - INFO: 
+Starting Epoch 83/200
+2025-03-11 02:41:54,916 - INFO: Epoch 83 completed in 226.10 seconds
+2025-03-11 02:41:54,916 - INFO: Epoch Metrics: loss: 0.0353 - accuracy: 0.9945 - val_loss: 0.0492 - val_accuracy: 0.9887
+2025-03-11 02:41:54,918 - INFO: 
+Starting Epoch 84/200
+2025-03-11 02:45:42,507 - INFO: Epoch 84 completed in 227.59 seconds
+2025-03-11 02:45:42,516 - INFO: Epoch Metrics: loss: 0.0347 - accuracy: 0.9945 - val_loss: 0.0491 - val_accuracy: 0.9889
+2025-03-11 02:45:42,525 - INFO: 
+Starting Epoch 85/200
+2025-03-11 02:49:29,635 - INFO: Epoch 85 completed in 227.11 seconds
+2025-03-11 02:49:29,635 - INFO: Epoch Metrics: loss: 0.0341 - accuracy: 0.9947 - val_loss: 0.0498 - val_accuracy: 0.9887
+2025-03-11 02:49:29,637 - INFO: 
+Starting Epoch 86/200
+2025-03-11 02:53:04,340 - INFO: Epoch 86 completed in 214.70 seconds
+2025-03-11 02:53:04,341 - INFO: Epoch Metrics: loss: 0.0347 - accuracy: 0.9949 - val_loss: 0.0492 - val_accuracy: 0.9887
+2025-03-11 02:53:04,343 - INFO: 
+Starting Epoch 87/200
+2025-03-11 02:56:41,277 - INFO: Epoch 87 completed in 216.93 seconds
+2025-03-11 02:56:41,278 - INFO: Epoch Metrics: loss: 0.0327 - accuracy: 0.9951 - val_loss: 0.0503 - val_accuracy: 0.9887
+2025-03-11 02:56:41,433 - INFO: Total training time: 43701.71 seconds
+2025-03-11 02:56:41,433 - INFO: Evaluating model...
+2025-03-11 02:56:51,818 - INFO: Test Loss: 0.0503
+2025-03-11 02:56:51,819 - INFO: Test Accuracy: 0.9890
+2025-03-11 02:56:53,750 - INFO: Model training completed successfully!

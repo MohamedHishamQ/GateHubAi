@@ -9,7 +9,7 @@ class APIClient:
     def send_fine_data(self, plate_number, gate_id, fine_value=0, fine_type="No Fine"):
         """Send fine data to API"""
         data = {
-            "plateNumber": plate_number,
+            "plateNumber":  "123ن ف ر",
             "fineValue": fine_value,
             "fineType": fine_type,
             "gateId": gate_id

@@ -2,6 +2,8 @@ import cv2
 from src.models.vehicle_detection import VehicleDetector
 from src.models.plate_detection import PlateDetector
 from src.utils.api_client import APIClient
+import re
+
 
 
 class ImageProcessor:
@@ -44,4 +46,4 @@ class ImageProcessor:
         if vehicle:
             print(f"🚗 Vehicle Type: {vehicle['type']}")
 
-        self.api_client.send_fine_data(plate_data['text'], gate_id)
+        self.api_client.send_fine_data(plate_data['text'].strip(), gate_id)

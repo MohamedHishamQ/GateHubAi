@@ -1,0 +1,26 @@
+2025-04-18 18:09:05,599 - INFO: Vehicle detector initialized on cpu
+2025-04-18 18:09:07,325 - INFO: Plate detector initialized on cpu
+2025-04-18 18:09:07,325 - INFO: API client initialized with base URL: http://gatehub.runasp.net
+2025-04-18 18:10:25,907 - INFO: Vehicle detector initialized on cpu
+2025-04-18 18:10:27,556 - INFO: Plate detector initialized on cpu
+2025-04-18 18:10:27,556 - INFO: API client initialized with base URL: http://gatehub.runasp.net
+2025-04-18 18:10:34,107 - INFO: Image processor initialized
+2025-04-18 18:11:48,946 - INFO: Vehicle detector initialized on cpu
+2025-04-18 18:11:50,573 - INFO: Plate detector initialized on cpu
+2025-04-18 18:11:50,573 - INFO: API client initialized with base URL: http://gatehub.runasp.net
+2025-04-18 18:11:56,389 - INFO: Image processor initialized
+2025-04-18 18:11:56,390 - ERROR: Image processing error: [Errno 2] No such file or directory: 'D:\\pythonProject\\Automatic-number-plate-recognition-in-real-time--main\\GateHub\\data\\images\\image.png'
+2025-04-18 18:12:27,535 - INFO: Vehicle detector initialized on cpu
+2025-04-18 18:12:29,186 - INFO: Plate detector initialized on cpu
+2025-04-18 18:12:29,186 - INFO: API client initialized with base URL: http://gatehub.runasp.net
+2025-04-18 18:12:41,636 - INFO: Image processor initialized
+2025-04-18 18:12:48,469 - INFO: Sending request to http://gatehub.runasp.net/api/GateStaff/AddFine
+2025-04-18 18:12:48,469 - INFO: Request data: {'plateNumber': ' \u0661 Ì Õ \u0666 \u0666 \u0665 \u0661', 'fineValue': 0, 'fineType': 'No Fine', 'gateId': 1}
+2025-04-18 18:12:49,379 - WARNING: API request failed: 404
+2025-04-18 18:12:49,380 - WARNING: Response: "Vehicle not found."
+2025-04-18 18:12:49,380 - INFO: Retrying... (1/2)
+2025-04-18 18:12:49,948 - WARNING: API request failed: 404
+2025-04-18 18:12:49,948 - WARNING: Response: "Vehicle not found."
+2025-04-18 18:12:49,948 - INFO: Retrying... (2/2)
+2025-04-18 18:12:51,206 - WARNING: API request failed: 404
+2025-04-18 18:12:51,206 - WARNING: Response: "Vehicle not found."
